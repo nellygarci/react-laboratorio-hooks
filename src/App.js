@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Contador from './Components/Contador';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+         <h1> Inicio del contador</h1>
+         <Contador/>
       </header>
     </div>
   );
